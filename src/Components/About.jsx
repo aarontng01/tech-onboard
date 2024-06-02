@@ -16,27 +16,25 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/motion-background.jpg";
+import image from "../images/award.png";
 
-const imageAltText = "purple and blue abstract background";
+const imageAltText = "award";
 
 /**
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "I am a CS student at the University of Washington, a BlueHat Conference Speaker, Microsoft Certified Azure Cybersecurity Architect and Microsoft Certified Azure Solutions Architect.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "Azure",
+  "Cybersecurity",
+  "Education",
+  "Public Policy"
 ];
 
 /**
@@ -45,7 +43,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "I am deeply passionate about the impact of Cybersecurity to society and actively promoting K-12 Cybersecurity Awareness and Education. Check out my podcast series Cyber Empowerment for Students and Young Adults to hear from my expert guests at Microsoft, Google, Uber, Remitly, Activision Blizzard King, US Army CENTCOM and SYSUSA about their journey to build a successful career in the IT industry!";
 
 const About = () => {
   return (

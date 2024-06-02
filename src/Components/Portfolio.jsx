@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/ebc.png";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "ebc";
 
 /**
  * Project list
@@ -31,29 +31,23 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Cyber Empowerment Podcast",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "On Cyber Empowerment, I will sit down with industry luminaries and experts for a 30-minute conversation where they will share their views on these 4 key topics that concern students today:, - Career Growth and Development - Cybersecurity - Society and Ethics - Diversity and Inclusiveness",
+    url: "https://rss.com/podcasts/cyberempowerment",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Microsoft BlueHat 2023 Presentation",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Spoke at the Microsoft 2023 BlueHat Security Conference on K-12 Cybersecurity Education",
+    url: "https://www.linkedin.com/posts/aaron-tng-80825722a_msftbluehat-cybersecurity-msftstudentambassadors-activity-7132940057065230336-dQ42?utm_source=share&utm_medium=member_desktop",
   },
   {
-    title: "My Resume Site",
+    title: "Cybersecure It",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
-  },
-  {
-    title: "GitHub Codespaces and github.dev",
-    description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
-  },
+      "Promoting Cybersecurity awareness and education through a student-led, non-profit organization.",
+    url: "https://www.cybersecure-it.org/",
+  }
 ];
 
 const Portfolio = () => {
